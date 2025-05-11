@@ -1,0 +1,159 @@
+body {
+    background-color: #02030f;    
+    color: #f1f5f9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .bgimg{
+    position:fixed;
+    width:100%;
+    opacity: 50%;
+
+  }
+  
+  .cv-box {
+    position: relative;
+    background-color: #1e293b;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: flex;
+    flex:auto;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .leftbox{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    /*background-color: aqua;*/
+  }
+  .rigthbox{
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  /*background-color: aquamarine;*/
+
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .profile-pic {    
+    width: 150px;
+  height: 150px;
+  border-radius: 30%;
+  border: 2px solid #94a3b8;
+  object-fit: cover;
+  flex-shrink: 0
+  }
+  .IdProfesion{
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;  
+  margin: 1%;
+  justify-content: space-around;
+  
+  }
+
+  .IdProfesion h1{
+    margin: 0;
+    width: 100%;
+    height: 48%;    
+  }
+
+  .IdProfesion p{
+  margin: 0;
+  height: 48%;
+  width: 100%;
+  color: #7644c3;
+  }
+
+ 
+  .aboutme{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    text-align: justify;
+    font-style: normal;
+    margin: 10px;
+  }
+  .technologies {
+    margin: 1.5rem 0;
+    
+  }
+  
+  .tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .tech-icons img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .cv-buttons {
+    margin-top: 1rem;
+  }
+  
+  .cv-buttons button {
+    margin: 0.3rem;
+    padding: 0.5rem 1rem;
+    background-color: rgba(0,0,0,0.1);
+    border:white;
+    border-style: outset;
+    border-width: 0.1rem;
+    border-radius: 0.8rem;
+    color: #7644c3;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .cv-buttons button:hover {
+    background-color: #2563eb;
+  }
+  
+  footer {
+    margin-top: 2rem;    
+  }
+  
+  footer a img {
+    width: 24px;
+    margin: 0 10px;
+    filter: brightness(0.9);
+    transition: transform 0.2s ease;
+  }
+  
+  footer a:hover img {
+    transform: scale(1.2);
+  }
+  
+  #particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+  }
+  
