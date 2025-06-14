@@ -42,4 +42,5 @@ function downloadCV(lang) {
     },
     "retina_detect": true
   });
-  
+
+ 
